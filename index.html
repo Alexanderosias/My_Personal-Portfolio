@@ -18,15 +18,15 @@
 <body>
   <nav>
     <h3><a href="#">Alexander</a></h3>
-    <ul>
+    <ul class="nav-l">
       <li><a href="#about">About</a></li>
       <li><a href="#skills">Skills</a></li>
       <li><a href="#projects">Projects</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
     <div class="burger-bar-cont">
-      <img src="img/burger-bar.png" alt="Menu">
-      <ul>
+      <img onclick="showLinks()" src="img/burger-bar.png" alt="Menu">
+      <ul id="link" class="nav-s">
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
@@ -78,5 +78,8 @@
     <h2 class="headings white">Contact</h2>
     <button class="btn">Let's Talk</button>
   </section>
+
+  <script src="script.js"></script>
+
 </body>
 </html>

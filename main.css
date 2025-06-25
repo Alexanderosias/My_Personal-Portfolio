@@ -8,7 +8,7 @@ nav {
   z-index: 100;
 }
 
-nav ul {
+.nav-l {
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -19,17 +19,17 @@ a {
   text-decoration: none;
 }
 
-nav li {
+.nav-l li {
   display: inline-block;
 }
 
-nav li>a {
+.nav-l li>a {
   padding: 20px 40px;
   position: relative;
   transition: padding 0.5s ease;
 }
 
-nav li>a::before {
+.nav-l li>a::before {
   content: " ";
   position: absolute;
   bottom: 0;
@@ -41,7 +41,7 @@ nav li>a::before {
   transition: width 0.4s ease;
 }
 
-nav li>a:hover::before {
+.nav-l li>a:hover::before {
   width: 100%;
 }
 
@@ -60,7 +60,6 @@ nav li>a:hover::before {
 
 .profile-section {
   padding-right: 89px;
-  justify-content: center;
   text-align: center;
   transition: padding 0.5s ease;
 }
@@ -104,6 +103,7 @@ nav li>a:hover::before {
   border-bottom: 2px solid var(--text);
   margin-bottom: 28px;
   padding: 0;
+  display: inline-block;
 }
 
 .headings {
@@ -135,3 +135,4 @@ nav li>a:hover::before {
   padding-left: 30px;
   padding-bottom: 10px;
 }
+

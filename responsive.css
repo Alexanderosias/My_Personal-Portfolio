@@ -1,11 +1,11 @@
 @media screen and (max-width: 1000px) {
-  nav li>a {
+  .nav-l li>a {
     padding: 20px 29px;
   }
 }
 
 @media screen and (max-width: 870px) {
-    nav li>a {
+  .nav-l li>a {
     padding: 20px 20px;
   }
 
@@ -15,5 +15,38 @@
 
   .profile-section {
     padding-right: 50px;
+  }
+}
+
+@media screen and (max-width: 775px) {
+  .myself {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: auto;
+    padding-bottom: 30px;
+  }
+
+  .profile-section {
+    padding-right: 0;
+  }
+
+  nav .nav-l {
+    display: none;
+  }
+
+  .burger-bar-cont {
+    display: inline-block;
+  }
+
+  .nav-s {
+    display: none;
+  }
+
+  .greetings>h2 {
+    font-size: 50px;
+    display: inline-block;
   }
 }
