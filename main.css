@@ -6,12 +6,11 @@ nav {
   justify-content: space-between;
   background-color: rgba(18, 18, 18, 0.7);
   z-index: 100;
-  position: relative;
 }
 
-nav .navlink-l {
+nav ul {
   list-style-type: none;
-  padding: 0; 
+  padding: 0;
   margin: 0;
 }
 
@@ -20,16 +19,17 @@ a {
   text-decoration: none;
 }
 
-nav .navlink-l>li {
+nav li {
   display: inline-block;
 }
 
-.navlink-l li>a {
+nav li>a {
   padding: 20px 40px;
+  position: relative;
   transition: padding 0.5s ease;
 }
 
-ul.navlink-l li>a::before {
+nav li>a::before {
   content: " ";
   position: absolute;
   bottom: 0;
@@ -41,19 +41,12 @@ ul.navlink-l li>a::before {
   transition: width 0.4s ease;
 }
 
-ul.navlink-l li>a:hover::before {
+nav li>a:hover::before {
   width: 100%;
 }
 
 .burger-bar-cont {
   display: none;
-  position: relative;
-}
-
-.menubox-options {
-  display: none;
-  position: absolute;
-
 }
 
 .myself {
@@ -107,7 +100,6 @@ ul.navlink-l li>a:hover::before {
 }
 
 .greetings>h2 {
-  display: inline-block;
   font-size: 60px;
   border-bottom: 2px solid var(--text);
   margin-bottom: 28px;
@@ -143,4 +135,3 @@ ul.navlink-l li>a:hover::before {
   padding-left: 30px;
   padding-bottom: 10px;
 }
-
