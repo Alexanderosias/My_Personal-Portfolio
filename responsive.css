@@ -1,0 +1,19 @@
+@media screen and(max-width: 1000px) {
+  nav .navlink-l li>a {
+    padding: 20px 29px;
+  }
+}
+
+@media screen and(max-width: 860px) {
+  nav .navlink-l li>a {
+    padding: 20px 20px;
+  }
+
+  .myself {
+    padding-left: 50px;
+  }
+
+  .profile-section {
+    padding-right: 50px;
+  }
+}

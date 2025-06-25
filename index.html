@@ -1,54 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="general.css">
   <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="responsive.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
   <title>My Portfolio</title>
 </head>
+
 <body>
   <nav>
     <h3><a href="#">Alexander</a></h3>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-  </nav>
-  <main>
-    <div class="myself">
-      <div class="profile-section">
-        <div class="div-profile"><img src="img/profile.jpg" alt="Picture of Alexander"></div>
-        <div>
-          <h1>Alexander Osias</h1>
-          <p class="position"><em>Junior FrontEnd Developer</em></p>
-        </div>
-      </div>
-      <div class="greetings">
-        <h2>Hello, I'm Alexander</h2>
-        <p>I build clean, responsive websites with HTML, CSS, and JavaScript.</p>
-        <p>Currently learning, improving, and shipping one line at a time.</p>
+    <ul class="navlink-l">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="burger-bar-cont">
+      <img src="img/burger-bar.png" alt="Menu">
+      <div class="menubox-options">
+        <ul class="navlink-s">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skilss</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
       </div>
     </div>
+  </nav>
+  <div class="myself">
+    <div class="profile-section">
+      <div class="div-profile"><img src="img/profile.jpg" alt="Picture of Alexander"></div>
+      <div>
+        <h1>Alexander Osias</h1>
+        <p class="position"><em>Junior FrontEnd Developer</em></p>
+      </div>
+    </div>
+    <div class="greetings">
+      <h2>Hello, I'm Alexander</h2>
+      <p>I build clean, responsive websites with HTML, CSS, and JavaScript.</p>
+      <p>Currently learning, improving, and shipping one line at a time.</p>
+    </div>
+  </div>
 
+  <div class="skill-section">
     <section id="about">
-      <h2 class="headings">About Me</h2>
-      <p>I’m a self-taught frontend developer passionate about clean code, strong UI, and functional design. I love turning ideas into real things using HTML, CSS, and JavaScript.</p>
+      <h2 class="headings black">About Me</h2>
+      <p>I’m a self-taught frontend developer passionate about clean code, strong UI, and functional design. I love
+        turning ideas into real things using HTML, CSS, and JavaScript.</p>
     </section>
 
-    <section id="projects">
-      <h2 class="headings">Projects</h2>
-      <p>Project showcase coming soon. Stay tuned!</p>
+    <section id="skills">
+      <h2 class="headings black">Skills</h2>
+      <ul>
+        <li>Proficient in HTML, CSS, and foundational JavaScript</li>
+        <li>Strong eye for layout, color, and visual hierarchy</li>
+        <li>Comfortable with Git, GitHub, and version control basics</li>
+        <li>Quick learner with a passion for self-improvement</li>
+        <li>Attention to detail without losing sight of the big picture</li>
+        <li>Open to feedback, collaboration, and creative problem-solving</li>
+      </ul>
     </section>
+  </div>
 
-    <section id="contact">
-      <h2 class="headings">Contact</h2>
-      <button class="btn">Let's Talk</button>
-    </section>
-  </main>
+  <section id="projects">
+    <h2 class="headings white">Projects</h2>
+    <p>Project showcase coming soon. Stay tuned!</p>
+  </section>
+
+  <section id="contact">
+    <h2 class="headings white">Contact</h2>
+    <button class="btn">Let's Talk</button>
+  </section>
 </body>
 </html>
