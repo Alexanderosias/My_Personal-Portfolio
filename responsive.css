@@ -22,7 +22,6 @@
   .myself {
     display: flex;
     flex-direction: column;
-    align-items: center;
     padding-left: 50px;
     padding-right: 50px;
     height: auto;
@@ -31,6 +30,9 @@
 
   .profile-section {
     padding-right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   nav .nav-l {
@@ -43,6 +45,10 @@
 
   .nav-s {
     display: none;
+  }
+
+  .greetings {
+    display: block;
   }
 
   .greetings>h2 {
