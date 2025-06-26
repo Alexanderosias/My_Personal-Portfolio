@@ -4,8 +4,13 @@ nav {
   position: sticky;
   top: 0;
   justify-content: space-between;
-  background-color: rgba(18, 18, 18, 0.7);
+  background-color: rgba(18, 18, 18, 0.8);
   z-index: 100;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--text);
 }
 
 .nav-l {
@@ -14,7 +19,7 @@ nav {
   margin: 0;
 }
 
-a {
+.nav-l a {
   color: var(--text);
   text-decoration: none;
 }
@@ -47,6 +52,48 @@ a {
 
 .burger-bar-cont {
   display: none;
+  position: relative;
+  cursor: pointer;
+}
+
+#menu {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  display: block;
+}
+
+#close {
+  position: absolute;
+  top: 3px;
+  right: -22px;
+  width: 20px;
+  height: 18px;
+  display: none;
+}
+
+.nav-s {
+  display: none;
+  list-style-type: none;
+  position: absolute;
+  top: 49px;
+  right: -50px;
+  color: var(--bg);
+}
+
+.nav-s a {
+  text-decoration: none;
+  color: var(--text);
+  width: 200px;
+  height: auto;
+  padding: 13px 20px;
+  background-color: #252525;
+  display: block;
+  transition: background-color 0.3s;
+}
+
+.nav-s a:hover {
+  background-color: #3a3a3a;
 }
 
 .myself {
